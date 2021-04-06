@@ -1,8 +1,14 @@
 class School{
-    constructor(Primary, Middle, High){
-        this._Primary = Primary;
-        this._Middle = Middle;
-        this._High = High;
-        
+    constructor(name, level, numberOfStudents){
+        this._name = name;
+        this._level = level;
+        this._numberOfStudents = numberOfStudents;
+
+    }
+    get name(){
+        return this._name;
+    }
+    get level(){
+        return this._level;
     }
 }
